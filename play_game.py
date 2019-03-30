@@ -142,7 +142,7 @@ def generate_categories():
 					"furniture",
 					"presidents",
 					"product names"
-					]
+				]
 	return random.sample(categories, 12)
 
 @app.route('/signup', methods = ['POST'])
